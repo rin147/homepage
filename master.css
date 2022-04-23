@@ -1,0 +1,116 @@
+
+@font-face {
+  font-family: 'MyFont3';
+  src: url("./fonts/logo.otf");
+}
+@font-face {
+  font-family: 'MyFont2';
+  src: url("./fonts/h.otf");
+}
+
+
+body {
+   overflow-x: hidden;
+
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: black;
+}
+h1{
+  font-family: 'MyFont3';
+  color: white;
+}
+header {
+   z-index : 3;
+   width: 100%;
+   padding: 10px 4% 10px;
+   background-color: rgba(255, 255, 255,0);
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ul{
+  display: flex;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+li{
+  margin: 0 0 0 100px;
+  list-style: none;
+  color: white;
+}
+.videoClass{
+  overflow: hidden;
+  position: relative;
+}
+.videoClass > #mujiVideo{
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  min-width:100%;
+  min-height:100%;
+}
+#mujiTxt{
+  font-family: 'MyFont2';
+  font-family: 'MyFont3';
+  color: white;
+  margin-right: 0;
+  margin-left: auto;
+  position: absolute;
+  top: 80%;
+  right: 20px;
+  font-size: 30px;
+  margin-left: 1rem;
+  text-indent: -10rem;
+}
+
+span{
+  font-family: 'MyFont3';
+  color: white;
+  margin-right: 0;
+  margin-left: auto;
+}
+.second{
+  width: 100%;
+  display: flex;
+  position:relative;
+}
+.image{
+  background-color: blue;
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.text{
+  background-color: white;
+  width: 40%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.second{
+  overflow: hidden;
+}
+.secondImage{
+
+  min-width:100%;
+  min-height:100%;
+}
+.secondText{
+  font-family: 'MyFont3';
+  color: black;
+  text-align: center;
+}
+.secondSpan{
+  width: 70%;
+  height: 70%;
+  transform: translate(25%,25%);
+}
