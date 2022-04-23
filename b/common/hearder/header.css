@@ -1,0 +1,37 @@
+* {
+   box-sizing: border-box;
+}
+@font-face {
+  font-family: 'MyFont3';
+  src: url("C:/Users/takamoto/Desktop/video/b/fonts/logo.otf");
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+h1{
+  font-family: 'MyFont3';
+}
+header {
+   width: 100%;
+   padding: 30px 4% 10px;
+   background-color: #fff;
+   position: fixed;
+   top: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+ul{
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  margin: 0 0 0 100px;
+  list-style: none;
+}
